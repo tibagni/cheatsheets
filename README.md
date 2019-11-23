@@ -179,4 +179,8 @@ Ctrl + wh     # move cursor to the left window (vertical split)
 Ctrl + wl     # move cursor to the right window (vertical split)
 Ctrl + wj     # move cursor to the window below (horizontal split)
 Ctrl + wk     # move cursor to the window above (horizontal split)
+Ctrl + wH     # move the current window to the left (vertical split)
+Ctrl + wL     # move the current window to the right (vertical split)
+Ctrl + wJ     # move the current window to the bottom (horizontal split)
+Ctrl + wK     # move the current window to top (horizontal split)
 ```
