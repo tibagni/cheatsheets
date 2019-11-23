@@ -36,8 +36,8 @@ g_       # jump to the last non-blank character of the line
 gg       # go to the first line of the document
 G        # go to the last line of the document
 5G       # go to line 5
-fx       # jump to next occurrence of character x
-tx       # jump to before next occurrence of character x
+fx       # jump to next occurrence of character x (use ; to find next)
+tx       # jump to before next occurrence of character x (use ; to find next)
 }        # jump to next paragraph (or function/block, when editing code)
 {        # jump to previous paragraph (or function/block, when editing code)
 zz       # center cursor on screen
