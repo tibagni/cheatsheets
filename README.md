@@ -1,7 +1,7 @@
 # vim-cheatsheet
 
 ## General
-```
+```bash
 :help keyword # open help for keyword
 :w            # write the buffer to the file (save)
 :w file       # write buffer to specified file (save)
@@ -14,7 +14,7 @@
 ```
 
 ## Cursor movement
-```
+```bash
 h        # move cursor left (left arrow)
 j        # move cursor down (down arrow)
 k        # move cursor up (up arrow)
@@ -48,7 +48,7 @@ Ctrl + u # move back 1/2 a screen
 ```
 
 ## Additional movement (motion) (to use in conjunction with comands)
-```
+```bash
 iw      # inner word - applies the command to the word the cursor is on
 is      # inner sentence - applies the command to the sentence the cursor is on
 i"      # inner quotes - applies the command to the text inside the quotes
@@ -69,7 +69,7 @@ at      # a tag - same as it including the tags
 ```
 
 ## Insert mode - inserting/appending text
-```
+```bash
 i        # insert before the cursor
 I        # insert at the beginning of the line
 a        # insert (append) after the cursor
@@ -80,7 +80,7 @@ Esc      # exit insert mode
 ```
 
 ## Editing
-```
+```bash
 r         # replace a single character
 J         # join line below to the current one
 cc        # change (replace) an entire line
@@ -96,7 +96,7 @@ Ctrl + r  # redo
 ```
 
 ## Marking text (visual mode)
-```
+```bash
 v        # start visual mode, mark lines, then do a command (like y-yank)
 V        # start visual mode marking entire line
 Ctrl + v # start visual block mode
@@ -106,14 +106,14 @@ Esc      # exit visual mode
 ```
 
 ## Visual commands
-```
+```bash
 y       # yank (copy) marked text
 d       # delete marked text
 c       # delete the marked text and go into insert mode (like c does above)
 ```
 
 ## Cut and paste
-```
+```bash
 yy        # yank (copy) a line
 y[motion] # yank (copy) from the cursor to the move-to point.
 p         # put (paste) the clipboard after cursor
@@ -125,7 +125,7 @@ x         # delete (cut) character
 ```
 
 ## Search and replace
-```
+```bash
 /pattern       # search for pattern
 ?pattern       # search backward for pattern
 \vpattern      # 'very magic' pattern: non-alphanumeric characters are interpreted as special regex symbols (no escaping needed)
@@ -136,7 +136,7 @@ N              # repeat search in opposite direction
 ```
 
 ## Search in multiple files
-```
+```bash
 :vimgrep /pattern/ {file} # search for pattern in multiple files
 :cn                       # jump to the next match
 :cp                       # jump to the previous match
@@ -144,7 +144,7 @@ N              # repeat search in opposite direction
 ```
 
 ## Working with multiple files
-```
+```bash
 :e file       # edit a file in a new buffer
 :bnext or :bn # go to the next buffer
 :bprev or :bp # go to the previous buffer
@@ -153,7 +153,7 @@ N              # repeat search in opposite direction
 ```
 
 ## Tabs
-```
+```bash
 :tabnew or :tabnew file # open a file in a new tab
 :tabe                   # same as tabnew
 Ctrl + wT               # move the current split window into its own tab
@@ -167,7 +167,7 @@ gT or :tabprev or :tabp # move to the previous tab
 ```
 
 ## Windows
-```
+```bash
 :sp file      # open a file in a new buffer and split window
 :vsp file     # open a file in a new buffer and vertically split window
 Ctrl + ws     # split window
