@@ -138,6 +138,7 @@ N              # repeat search in opposite direction
 ## Search in multiple files
 ```bash
 :vimgrep /pattern/ {file} # search for pattern in multiple files
+:vimgrep /pattern/ **/*   # example of recursive search
 :cn                       # jump to the next match
 :cp                       # jump to the previous match
 :copen                    # open a window containing the list of matches
