@@ -184,3 +184,12 @@ Ctrl + wL     # move the current window to the right (vertical split)
 Ctrl + wJ     # move the current window to the bottom (horizontal split)
 Ctrl + wK     # move the current window to top (horizontal split)
 ```
+
+## General tips
+### Execute normal commands on the command line
+_:normal [normal commands]_ allows to execute normal commands on command line
+Example:
+```bash
+V6j                 # enter visual mode and select 6 lines down
+:'<,'>normal 0i//   # execute the _0i_ normal mode command to insert '//' at the begining of all selected lines
+```
