@@ -197,7 +197,7 @@ V6j                 # enter visual mode and select 6 lines down
 ### Auto completion
 When in insert mode, while typing a word, press _Ctrl + p_ to autocomplete based on previous words and _Ctrl + n_ based on next words
 
-_Ctrl + x Ctrl + f_ will help auto complete file names
+_Ctrl + x Ctrl + f_ will help auto complete file names  
 _Ctrl + x Ctrl + l_ will help auto complete based on lines
 
 ### Fuzzy Search
