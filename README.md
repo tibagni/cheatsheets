@@ -193,3 +193,13 @@ Example:
 V6j                 # enter visual mode and select 6 lines down
 :'<,'>normal 0i//   # execute the _0i_ normal mode command to insert '//' at the begining of all selected lines
 ```
+
+### Auto completion
+When in insert mode, while typing a word, press _Ctrl + p_ to autocomplete based on previous words and _Ctrl + n_ based on next words
+
+### Fuzzy Search
+It is possible to fuzzy find your files using **/*, e.g.:
+```bash
+:vs **/*<partial file name><Tab>
+```
+This will search the current directory and all directories below it for filenames containing your partial search. This can be used with :e, :sp, :vsp.
