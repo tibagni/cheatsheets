@@ -206,3 +206,8 @@ It is possible to fuzzy find your files using **/*, e.g.:
 :vs **/*<partial file name><Tab>
 ```
 This will search the current directory and all directories below it for filenames containing your partial search. This can be used with :e, :sp, :vsp.
+
+### Highlight in substitution command
+You can't: :s is a : command, not a search command, and highlighting can only be done on search commands.
+But despair not!
+/foo highlights stuff, then :s//bar replaces stuff using the last search string.
