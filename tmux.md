@@ -57,6 +57,17 @@ $tmux a -t session_name
 (Ctrl + b) {left-arrow} (Ctrl + b) Ctrl + {left-arrow}
 ```
 
+## Copy mode
+```bash
+# These are key bindings for when you are in a session
+
+(Ctrl + b) [             # Enter copy mode
+# use VIM key bindings for movement and search while in copy mode
+spacebar                 # Start selection
+enter                    # Copy selection
+(Ctrl + b) ]             # Paste contents of buffer_0
+```
+
 ## Help
 ```bash
 (Ctrl + b) ? # Show all shortcuts
