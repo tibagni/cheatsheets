@@ -3,3 +3,4 @@
 * [Bash](bash.md)
 * [Tmux](tmux.md)
 * [Intellij](intellij.md)
+* [VSCode](vscode.md)
