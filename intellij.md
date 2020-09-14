@@ -43,6 +43,7 @@ Ctrl + Alt + <Right arrow> | Navigate forward
 Ctrl + (Ctrl + Up)      | Add carets above the current caret using keyboard
 Ctrl + (Ctrl + Down)    | Add carets below the current caret using keyboard
 Shift + Ctrl + Alt + J  | Add cursor at search results (selection)
+Alt + J                 | Add cursor at next occurrence
 ```
 
 [Official JetBrains cheatsheet](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
