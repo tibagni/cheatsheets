@@ -23,6 +23,9 @@ $tmux a
 
 # Attach to a specific session
 $tmux a -t session_name
+
+# Key Bindings
+(Ctrl + b) d       # Detach from current session
 ```
 
 ## Windows
