@@ -11,4 +11,7 @@ Ctrl + e           # Move to the end of the line
 Ctrl + l           # Clear the screen (do not clear current line)
 Ctrl + u           # Delete current line
 Ctrl + x Ctrl + e  # Edidt current command in an editor
+
+Ctrl + <arrow key> # Move by words
+Alt + <backspace>  # Delete whole word
 ```
