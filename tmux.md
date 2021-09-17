@@ -54,10 +54,10 @@ $tmux a -t session_name
 (Ctrl + b) q [0...9]     # Select pane by number
 
 # Resize current pane
-(Ctrl + b) {up-arrow} (Ctrl + b) Ctrl + {up-arrow}
-(Ctrl + b) {down-arrow} (Ctrl + b) Ctrl + {down-arrow}
-(Ctrl + b) {left-arrow} (Ctrl + b) Ctrl + {left-arrow}
-(Ctrl + b) {left-arrow} (Ctrl + b) Ctrl + {left-arrow}
+(Ctrl + b) Ctrl + {up-arrow}
+(Ctrl + b) Ctrl + {down-arrow}
+(Ctrl + b) Ctrl + {left-arrow}
+(Ctrl + b) Ctrl + {left-arrow}
 ```
 
 ## Copy mode
