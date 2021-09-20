@@ -71,6 +71,13 @@ enter                    # Copy selection
 (Ctrl + b) ]             # Paste contents of buffer_0
 ```
 
+## Nested sessions
+it’s ok to SSH to a remote host and start the tmux session there, while already being in a tmux environment locally.
+This is called nested sessions, but how you can control inner sessions, since all keybindings are caught and handled by outer sessions?
+
+Simple press prefix twice. The first prefix keystroke is caught by the outer session, whereas second is passed to the inner session.
+For example, move to the next window from inner session is `(Ctrl + b) (Ctrl + b) n`
+
 ## Help
 ```bash
 (Ctrl + b) ? # Show all shortcuts
