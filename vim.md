@@ -186,6 +186,11 @@ Ctrl + wH     # move the current window to the left (vertical split)
 Ctrl + wL     # move the current window to the right (vertical split)
 Ctrl + wJ     # move the current window to the bottom (horizontal split)
 Ctrl + wK     # move the current window to top (horizontal split)
+
+{n}Ctrl + +    # Resize a slipt window (height) - {n} is the number of rows (1 by default)
+{n}Ctrl + -    # Resize a slipt window (height) - {n} is the number of rows (1 by default)
+{n}Ctrl + >    # Resize a slipt window (width) - {n} is the number of cols (1 by default)
+{n}Ctrl + <    # Resize a slipt window (width) - {n} is the number of cols (1 by default)
 ```
 
 ## General tips
