@@ -151,7 +151,10 @@ N              # repeat search in opposite direction
 :bprev or :bp # go to the previous buffer
 :bd           # delete a buffer (close a file)
 :ls           # list all open buffers
+
+:b <buffer name> # Display the first buffer matching the partial name (or press Tab for name completion).
 ```
+**tip:** Enter `:ls` to list the buffers, then (while the list is still displayed), enter a command like `:b12` to display buffer 12 (no space is needed).
 
 ## Tabs
 ```bash
