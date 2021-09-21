@@ -57,6 +57,7 @@ i{      # inner {} - applies the command to the text inside the {} the cursor is
 i(      # inner () - applies the command to the text inside the () the cursor is on
 i<      # inner <> - applies the command to the text inside the <> the cursor is on
 it      # inner tag - applies the command to the text inside the tags the cursor is on <tag>...</tag>
+ip      # inner paragraph - applies the command to the text inside the paragraph
 
 aw      # a word - same as iw
 as      # a sentence - same as is
@@ -66,6 +67,7 @@ a{      # a {} - same as i{ including the {}
 a(      # a () - same as i( including the ()
 a<      # a <> - same as i< including the <>
 at      # a tag - same as it including the tags
+ip      # inner paragraph - same as ip including the paragraph
 ```
 
 ## Insert mode - inserting/appending text
