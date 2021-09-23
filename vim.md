@@ -40,6 +40,9 @@ fx       # jump to next occurrence of character x (use ; to find next)
 tx       # jump to before next occurrence of character x (use ; to find next)
 }        # jump to next paragraph (or function/block, when editing code)
 {        # jump to previous paragraph (or function/block, when editing code)
+)        # jump to next sentence
+(        # jump to previous sentence
+%        # jump to matching {[{
 zz       # center cursor on screen
 Ctrl + f # move forward one full screen
 Ctrl + b # move back one full screen
