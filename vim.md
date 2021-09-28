@@ -198,6 +198,12 @@ Ctrl + wK     # move the current window to top (horizontal split)
 {n}Ctrl + <    # Resize a slipt window (width) - {n} is the number of cols (1 by default)
 ```
 
+## Terminal commands
+```bash
+:! {cmd}      # Execute 'cmd' in a shell
+:%! {cmd}     # Execute 'cmd' in a shell using current vim buffer as stdin
+```
+
 ## General tips
 ### Execute normal commands on the command line
 _:normal [normal commands]_ allows to execute normal commands on command line
