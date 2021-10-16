@@ -73,6 +73,50 @@ at      # a tag - same as it including the tags
 ip      # inner paragraph - same as ip including the paragraph
 ```
 
+## Counting
+```bash
+<C-a> to increment
+<C-x> to decrement
+```
+### Decimal
+```bash
+commands:          buffer:
+{start}            10
+25<C-a>            35
+12<C-x>            23
+```
+### Octal
+Numbers with a leading 0 will be interpreted as octal
+```
+{start}            010
+<C-x>              007
+10<C-a>            021
+```
+### Binary
+Numbers starting with 0b will be interpreted as binary
+```
+{start}            0b0
+10<C-a>            0b1010
+5<C-x>             0b0101
+```
+### Hex
+Numbers starting with 0x will be interpreted as hex
+```
+{start}            0xff
+<C-a>              0x100
+10<C-x>            0x0f6
+```
+The cursor does not have to be necessarily over the number for this to work. <C-a> and <C-x> commands
+will look ahead for a number on the current line
+
+## Modifying case
+```bash
+~            # Switch the case of the character under the cursor
+g~[motion]   # Switch the case of a motion
+gu[motion]   # Turn motion lowercase
+gU[motion]   # Turn motion uppercase
+```
+
 ## Insert mode - inserting/appending text
 ```bash
 i        # insert before the cursor
