@@ -44,6 +44,7 @@ tx       # jump to before next occurrence of character x (use ; to find next)
 (        # jump to previous sentence
 %        # jump to matching {[{
 zz       # center cursor on screen
+z<CR>    # redraw, cursor line to top of window, cursor on first non-blank
 Ctrl + f # move forward one full screen
 Ctrl + b # move back one full screen
 Ctrl + d # move forward 1/2 a screen
