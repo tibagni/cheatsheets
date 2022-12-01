@@ -82,7 +82,7 @@ Ctrl + o  # Navigate to previous cursor position
 Ctrl + i  # Navigate to next cursor position
 ```
 
-## ctags
+## [ctags](vim-ctags.md)
 ```bash
 Ctrl + ]               # Jump to the tag underneath the cursor using the information in the tags file(s)
 Ctrl + w Ctrl + ]      # Open the definition in a horizontal split
