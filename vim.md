@@ -86,6 +86,8 @@ Ctrl + i  # Navigate to next cursor position
 ```bash
 Ctrl + ]               # Jump to the tag underneath the cursor using the information in the tags file(s)
 Ctrl + w Ctrl + ]      # Open the definition in a horizontal split
+Ctrl-t                 # Jump back up in the tag stack
+:ts                    # List all of the definitions of the last tag
 ```
 
 ## Counting
