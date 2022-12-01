@@ -76,6 +76,12 @@ at      # a tag - same as it including the tags
 ip      # inner paragraph - same as ip including the paragraph
 ```
 
+## ctags
+```bash
+Ctrl + ]               # Jump to the tag underneath the cursor using the information in the tags file(s)
+Ctrl + w Ctrl + ]      # Open the definition in a horizontal split
+```
+
 ## Counting
 ```bash
 <C-a> to increment
