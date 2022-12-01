@@ -76,6 +76,12 @@ at      # a tag - same as it including the tags
 ip      # inner paragraph - same as ip including the paragraph
 ```
 
+## Navigation
+```bash
+Ctrl + o  # Navigate to previous cursor position
+Ctrl + i  # Navigate to next cursor position
+```
+
 ## ctags
 ```bash
 Ctrl + ]               # Jump to the tag underneath the cursor using the information in the tags file(s)
