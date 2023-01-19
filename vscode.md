@@ -6,5 +6,6 @@ Use the "IntelliJ IDEA Keybindings" extension and copy the [vscode/keybindings.j
 ### Multiple cursors
 ```
 Shift + Alt + Up        | Add carets above the current caret using keyboard
-Shift + Alt + Down)     | Add carets below the current caret using keyboard
+Shift + Alt + Down      | Add carets below the current caret using keyboard
+Ctrl + D                | Select current word (keep pressing to select next matches)
 ```
