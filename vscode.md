@@ -1,11 +1,10 @@
 # VSCode-cheatsheet
 
-Use the "IntelliJ IDEA Keybindings" extension and copy the [vscode/keybindings.json](vscode/keybindings.json) file to ~/config/Code/User
+Official cheatsheet (Windows): https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
+Official cheatsheet (Linux): https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf
 
-## Differences
-### Multiple cursors
+## Extra stuff
+### Windows and Tabs
 ```
-Shift + Alt + Up        | Add carets above the current caret using keyboard
-Shift + Alt + Down      | Add carets below the current caret using keyboard
-Ctrl + D                | Select current word (keep pressing to select next matches)
+Ctrl + Tab    | Switch tabs
 ```
