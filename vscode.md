@@ -24,3 +24,9 @@ Ctrl + K (         | Select everything inside parenthesis (Custom. 'vscode-quick
 Ctrl + K [         | Select everything inside brackets (Custom. 'vscode-quick-select' extension)
 Ctrl + K {         | Select everything inside curly brackets (Custom. 'vscode-quick-select' extension)
 ```
+## Extensions
+### Confluence markup
+```
+Ctrl + Shift + V  | Open preview in a new tab
+Ctrl + K + V      | Open preview to the side
+```
